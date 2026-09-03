@@ -1253,7 +1253,7 @@ function demoLogin(e){e.preventDefault();var email=document.getElementById('demo
 document.addEventListener('DOMContentLoaded',function(){
  document.getElementById('demoLogout').addEventListener('click',function(){document.getElementById('demo-dashboard').style.display='none';document.getElementById('demo-login-area').style.display='block';window.scrollTo(0,0)});
  document.querySelectorAll('.task-list button').forEach(function(b){b.addEventListener('click',function(){var title=this.getAttribute('data-task');window.location.href='result.html?task='+encodeURIComponent(title);});});
- document.querySelectorAll('.demo-side-menu button').forEach(function(b){b.addEventListener('click',function(){var pc=document.getElementById('panelContent');pc.style.display='block';pc.innerHTML='<strong>'+this.getAttribute('data-panel')+'</strong><p>This section is available in the fictional student demo.</p>';});});
+ document.querySelectorAll('.demo-side-menu button').forEach(function(b){b.addEventListener('click',function(){var pc=document.getElementById('panelContent');pc.style.display='block';pc.innerHTML='<strong>'+this.getAttribute('data-panel')+'</strong><p>This section is not available at the moment.</p>';});});
 });
 //]]>
 </script></body>
